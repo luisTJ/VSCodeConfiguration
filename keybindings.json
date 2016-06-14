@@ -1,0 +1,8 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "Ctrl+D", "when": "editorTextFocus", "command": "editor.action.deleteLines" },
+    { "key": "Ctrl+/", "when": "editorTextFocus", "command": "editor.action.addCommentLine" },
+    { "key": "Ctrl+Shift+/", "when": "editorTextFocus", "command": "editor.action.removeCommentLine" },
+    { "key": "f10", "when": "!inDebugMode" , "command": "workbench.action.debug.run"},
+    { "key": "Ctrl+Shift+f", "when": "editorTextFocus", "command": "editor.action.format"}
+]
